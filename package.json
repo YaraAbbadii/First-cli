@@ -1,0 +1,24 @@
+{
+  "name": "my-node-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "my-node-cli": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.3.3",
+    "my-node-cli": "file:",
+    "ora": "^8.1.1"
+  }
+}
